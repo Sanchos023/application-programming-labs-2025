@@ -1,5 +1,8 @@
 import os
 import sys
+
+from typing import Optional
+
 from ImagePathIterator import ImagePathIterator
 
 from PyQt5.QtCore import Qt
@@ -8,7 +11,6 @@ from PyQt5.QtWidgets import (
     QApplication, QFileDialog, QHBoxLayout, QLabel, QMainWindow,
     QMessageBox, QPushButton, QVBoxLayout, QWidget, QScrollArea
 )
-
 
 class ImageViewer(QMainWindow):
     """Основное окно приложения для просмотра изображений."""
